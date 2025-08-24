@@ -4,13 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About | Artha Yantra Labs</title>
-  <!-- Link to your existing style.css -->
   <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome for icons -->
+  <script src="https://kit.fontawesome.com/yourfontawesomekit.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <!-- Navigation and Header (matches other pages) -->
   <nav class="navbar">
     <div class="logo">
-      <h1 class="logo-text">Artha Yantra Labs</h1>
+      <span class="logo-text">Artha Yantra Labs</span>
     </div>
     <div class="nav-links">
       <a href="index.html">Home</a>
@@ -33,69 +35,75 @@
     </div>
   </nav>
 
-  <!-- Company Overview Section -->
-  <section class="about-overview">
-    <div class="overview-content">
-      <h1>Building Smarter Financial Solutions</h1>
-      <p>
-        Artha Yantra Labs is on a mission to bridge technology and finance by creating innovative, trustworthy solutions for modern investors and institutions. We combine deep market expertise with visionary product design to help clients maximize growth and manage risk with confidence.
+  <!-- Add spacing to avoid navbar overlap -->
+  <div style="height: 80px;"></div>
+
+  <!-- Main Content Container with generous spacing -->
+  <main style="padding: 2rem 5% 2rem 5%; max-width: 1200px; margin: 0 auto;">
+    <!-- Company Overview Hero Section -->
+    <section class="about-overview" style="padding: 4rem 0 3rem 0; text-align: center;">
+      <h1 style="font-size:2.5rem; color: var(--primary-color); margin-bottom: 1rem;">Building Smarter Financial Solutions with Innovation & Trust</h1>
+      <p style="font-size:1.2rem; margin-bottom: 1.5rem;">
+        Founded in 2025, <b>Artha Yantra Labs</b> was created with the vision to bridge the gap between technology and financial services. <br>
+        We specialize in hedge funds, consulting, NBFCs, pharma, FMCG, and startups—bringing over a decade of market expertise as analysts, traders, and advisors.
       </p>
-      <p>
-        <strong>Founded:</strong> 2025<br>
-        <strong>Industries:</strong> Hedge Funds, Consulting, NBFCs, Pharma, FMCG, Startups
+      <p style="margin-bottom: 2rem;">
+        <strong>Industries:</strong> Hedge Funds &nbsp;|&nbsp; NBFCs &nbsp;|&nbsp; Pharma &nbsp;|&nbsp; FMCG &nbsp;|&nbsp; Consulting &nbsp;|&nbsp; Startups
       </p>
-    </div>
-  </section>
+    </section>
 
-  <!-- Mission & Vision Section -->
-  <section class="overview-content">
-    <h2>Our Mission</h2>
-    <p>
-      To empower investors with cutting-edge financial tools, actionable insights, and proven strategies that unlock growth and reduce risk in a rapidly evolving marketplace.
-    </p>
-    <h2>Our Vision</h2>
-    <p>
-      We aim to become a trusted global partner for financial innovation, helping businesses and individuals achieve sustainable success through technology-led solutions.
-    </p>
-  </section>
+    <!-- Mission & Vision -->
+    <section style="padding: 2rem 0; text-align: left;">
+      <h2 style="color:var(--primary-color); margin-bottom:0.5rem;">Our Mission</h2>
+      <p style="font-size:1.1rem; margin-bottom:1.5rem;">
+        To empower investors with cutting-edge financial tools, insights, and strategies that maximize growth and reduce risk.
+      </p>
+      <h2 style="color:var(--primary-color); margin-bottom:0.5rem;">Our Vision</h2>
+      <p style="font-size:1.1rem; margin-bottom:1.5rem;">
+        To become a trusted global partner for financial innovation, helping businesses and individuals achieve sustainable success.
+      </p>
+    </section>
 
-  <!-- Team Section -->
-  <section class="about-team">
-    <h2 style="text-align:center;">Meet Our Team</h2>
-    <div class="team-grid">
-      <!-- Team Member 1 -->
-      <div class="team-member">
-        <div class="team-icon"><i class="fa fa-user-tie"></i></div>
-        <h3>Ravi Mehta</h3>
-        <div class="position">CEO | B.Com (H), CS, CA (Rank-holder), MBA (FMS Delhi)</div>
-        <p>Over a decade building financial products for hedge funds and NBFCs. Drives Artha’s vision for data-driven investment tools.</p>
+    <!-- Team Section (grid, matches overall style) -->
+    <section class="about-team" style="padding: 4rem 0; background: var(--light-gray); border-radius:15px;">
+      <h2 style="text-align:center; color:var(--primary-color); margin-bottom:2.5rem;">Meet Our Core Team</h2>
+      <div class="team-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.5rem;">
+        <div class="team-member" style="background: var(--white); padding:2rem 1rem; border-radius:12px; box-shadow: var(--shadow); text-align:center;">
+          <div class="team-icon" style="width:70px; height:70px; margin:0 auto 1rem; background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); border-radius:50%; display:flex; align-items:center; justify-content:center; color:white;">
+            <i class="fa fa-user-tie" style="font-size:2rem;"></i>
+          </div>
+          <h3 style="margin-bottom: 0.2rem; color: var(--primary-color);">Ravi Mehta</h3>
+          <div class="position" style="color:#666; font-size:1rem; margin-bottom:0.8rem;">CEO<br>B.Com (H), CS, CA (Rank-holder), MBA (FMS Delhi)</div>
+          <p style="font-size:1rem; margin-bottom:1rem;">12+ years building financial products for hedge funds and NBFCs; passionate architect of Artha’s vision for data-driven investment tools.</p>
+        </div>
+        <div class="team-member" style="background: var(--white); padding:2rem 1rem; border-radius:12px; box-shadow: var(--shadow); text-align:center;">
+          <div class="team-icon" style="width:70px; height:70px; margin:0 auto 1rem; background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); border-radius:50%; display:flex; align-items:center; justify-content:center; color:white;">
+            <i class="fa fa-user-graduate" style="font-size:2rem;"></i>
+          </div>
+          <h3 style="margin-bottom: 0.2rem; color: var(--primary-color);">Aman Gupta</h3>
+          <div class="position" style="color:#666; font-size:1rem; margin-bottom:0.8rem;">CTO<br>Computer Science (NIT-D), MBA (FMS Delhi)</div>
+          <p style="font-size:1rem; margin-bottom:1rem;">Lead for engineering and platform; specializes in fintech infrastructure and scalable trading automation.</p>
+        </div>
+        <div class="team-member" style="background: var(--white); padding:2rem 1rem; border-radius:12px; box-shadow: var(--shadow); text-align:center;">
+          <div class="team-icon" style="width:70px; height:70px; margin:0 auto 1rem; background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); border-radius:50%; display:flex; align-items:center; justify-content:center; color:white;">
+            <i class="fa fa-user-md" style="font-size:2rem;"></i>
+          </div>
+          <h3 style="margin-bottom: 0.2rem; color: var(--primary-color);">Priya Shah</h3>
+          <div class="position" style="color:#666; font-size:1rem; margin-bottom:0.8rem;">Head of Research<br>MBBS (KEM Mumbai), MBA (FMS Delhi & NYU Stern)</div>
+          <p style="font-size:1rem; margin-bottom:1rem;">Expert in quantitative research and market analytics; makes advanced finance accessible for all.</p>
+        </div>
       </div>
-      <!-- Team Member 2 -->
-      <div class="team-member">
-        <div class="team-icon"><i class="fa fa-user-graduate"></i></div>
-        <h3>Aman Gupta</h3>
-        <div class="position">CTO | Computer Science (NIT-D), MBA (FMS Delhi)</div>
-        <p>Leads engineering and product development. Specializes in trading automation and fintech infrastructure.</p>
-      </div>
-      <!-- Team Member 3 -->
-      <div class="team-member">
-        <div class="team-icon"><i class="fa fa-user-md"></i></div>
-        <h3>Priya Shah</h3>
-        <div class="position">Head of Research | MBBS (KEM Mumbai), MBA (FMS Delhi & NYU Stern)</div>
-        <p>Expert in quantitative research and market analytics. Passionate about making finance accessible to everyone.</p>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Contact Us Section -->
-  <section class="overview-content" style="text-align:center;">
-    <h2>Contact Us</h2>
-    <p>Have questions or want to join our mission?<br>
-      <a href="mailto:hello@arthayantralabs.com" class="cta-button">Email Us</a>
-    </p>
-  </section>
+    <!-- Contact Section (wide spacing, matches style) -->
+    <section class="overview-contact" style="padding:3rem 0; text-align:center;">
+      <h2 style="color:var(--primary-color); margin-bottom:0.5rem;">Get in Touch</h2>
+      <p style="margin-bottom: 1rem;">Questions, suggestions, or want to partner with us?</p>
+      <a href="mailto:hello@arthayantralabs.com" class="cta-button" style="padding:1rem 2rem; font-size:1.1rem;">Email Us</a>
+    </section>
+  </main>
 
-  <!-- Footer -->
+  <!-- Footer (matches overall style) -->
   <footer>
     <div class="footer-content">
       <div>
@@ -112,9 +120,7 @@
       &copy; 2025 Artha Yantra Labs. All rights reserved.
     </div>
   </footer>
-
-  <!-- Font Awesome for Icons (ensure you include this script) -->
-  <script src="https://kit.fontawesome.com/yourfontawesomekit.js" crossorigin="anonymous"></script>
+  <!-- Script JS (matches site) -->
   <script src="script.js"></script>
 </body>
 </html>
